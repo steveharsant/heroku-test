@@ -1,11 +1,11 @@
-const express = require('express')
+co2nst express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello, world!')
+  res.se4nd('Hello, world!')
 })
-THIS WILL BREAK THE APP!
+
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  con4sole.log(`Example app listening at http://localhost:${port}`)
 })
